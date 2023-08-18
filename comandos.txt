@@ -1,0 +1,28 @@
+   89  git init
+   90  git remote add origin https://github.com/fbarrerac/Checkpoint-FernandoBarrera.git
+   91  touch main.js index.html
+   92  git add .
+   93  git commit -m "commit 01 de Fernando Barrera"
+   94  git push origin main
+   95  git config
+   96  git push origin master
+   97  git branch feature
+   98  git checkout feature
+   99  mkdir Hardware Software SeguridadInformatica
+  100  cd Hardware/
+  101  touch resumen.txt
+  102  cd ..
+  103  cd Software/
+  104  touch resumen.txt
+  105  cd ..
+  106  cd SeguridadInformatica/
+  107  touch resumen.txt
+  108  cd ..
+  109  git add .
+  110  git commit -m "commit 02 de Fernando Barrera"
+  111  git push origin feature
+  112  git checkout master
+  113  mv main.js resumenHardware.txt
+  114  mv index.html resumenSoftware.txt
+  115  touch comandos.txt
+  116  history
